@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Edição do Id='título'*/
+#titulo {
+    font-family: Jazz LET, fantasy;
+    font-size: 3em;
+    background: url(img/old.jpg) no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    background-clip: text;
+}
+
+/*Edição do Id='subtítulo'*/
+#subtitulo {
+    font-family: sans-serif;
+    color: rgb(249, 251, 252);
+    margin-left: 7%;
+}
+
+/*Removido a borda do fieldset*/
+fieldset {
+    border: 0;
+}
+
+/*Edição do corpo do documento e posição dos itens*/
+body {
+    background-image: url("img/5073414.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+/*Arredondamento das bordas dos das tags*/
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+/*Ajuste da borda da Class='campo'*/
+.campo {
+    margin-bottom: 1em;
+}
+
+/*Edição das label's contidas na Class='campo'*/
+.campo label {
+    margin-bottom: 0.2em;
+    color: rgb(244, 244, 248);
+    display: block;
+}
+
+/*Ajuste da posição das classes contidas no fieldset*/
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+/*Edição dos inputs e select contidos na Class='campo'*/
+.campo input[type="text"], .campo input[type="email"], .campo select{
+    padding: 0.2em;
+    border: 1px solid rgb(250, 4, 4);
+    box-shadow: 2px 2px 2px grey;
+    display: block;
+}
+
+/*Edição da tag 'textarea' na Class='campo'*/
+.campo textarea {
+    padding: 1.5em;
+    border: 1px solid rgb(250, 4, 4);
+    box-shadow: 2px 2px 2px grey;    
+}
+
+/*Ajuste na tag select e option na Class='campo'*/
+.campo select option {
+    padding-right: 1em;
+}
+
+/*Edição do fundo quando algum campo é selecionado*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: rgb(87, 113, 148);
+}
+
+/*Edição das tags para estilizar as caixas de texto e select*/
+.campo input, .campo select, .campo textarea {
+    background: rgb(87, 113, 148);
+}
+
+/*Estilização do botão de 'Concluído'*/
+.botao {
+    font-size: 1.2em;
+    font-family: Jazz LET, fantasy;
+    background: #F4A460;
+    border: 0;
+    margin-bottom: 1em;
+    color: #292828;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #8B4513;
+    text-shadow: 1px 1px 1px #808080;
+    position: relative;
+    left: 23%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Estilização para quando o mouse estiver sobre o botão*/
+.botao:hover {
+    background: #363636;
+    color: rgb(170, 170, 170);
+    box-shadow: 2px 2px 2px #FF0000;
+    text-shadow: none;
+}
+
+/*Id check que utilizei apenas para alinhar as checkbox*/
+#check {
+    display: inline-block;
+}
